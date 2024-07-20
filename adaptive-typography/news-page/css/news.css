@@ -3,16 +3,28 @@ html{
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 25px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 p {
-  font-size: 20px;
-  margin-bottom: 25px;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 767px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
 }

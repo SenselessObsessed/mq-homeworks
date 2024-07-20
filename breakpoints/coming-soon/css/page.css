@@ -2,6 +2,8 @@
   position: relative;
   color: #ffffff;
   min-height: 565px;
+
+  height: 100vh;
   
   background-image: url(../img/man-full.jpg);
   background-repeat: no-repeat;

@@ -1,3 +1,30 @@
 .home {
   background-image: url("../img/wedding4.jpg");
 }
+
+@media (min-width: 1401px) {
+  .home {
+    background-image: url(https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding4.jpg);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1400px) {
+  
+  .home {
+    background-image: url(https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding3.jpg);
+  }
+}
+
+@media (max-width: 641px) and (orientation: landscape) {
+  
+  .home {
+    background-image: url(https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding2.jpg);
+  }
+}
+
+@media (max-width: 641px) and (orientation: portrait) {
+  
+  .home {
+    background-image: url(https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding1.jpg);
+  }
+}

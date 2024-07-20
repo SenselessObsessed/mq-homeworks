@@ -1,0 +1,14 @@
+@media (max-width: 767px) and (min-width: 1301px) {
+    .profile__preview:before {
+        content: "";
+        width: 140px;
+        height: 140px;
+        border: 5px solid #fff;
+        opacity: .7;
+        background-color: #481bae;
+    }
+
+    .profile {
+        background-color: #481bae;
+    }
+}

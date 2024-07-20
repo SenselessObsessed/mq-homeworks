@@ -1,19 +1,23 @@
 .container {
-	width: 960px;
+	width: 70%;
+	min-width: 768px;
+	  max-width: 1300px;
 	padding: 15px 10px;
-}
-
-.card {
-	width: 428px;
+  }
+  
+  .card {
+	box-sizing: border-box;
+	width: calc(50% - 10px);
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
-}
-
-.card:nth-child(even) {
+  }
+  
+  .card:nth-child(even) {
 	margin-left: 10px;
-}
-
-.card:nth-child(odd) {
+  }
+  
+  .card:nth-child(odd) {
 	margin-right: 10px;
-}
+  }
+  

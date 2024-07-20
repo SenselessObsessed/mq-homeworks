@@ -103,6 +103,21 @@ h1 {
 
 @media (min-width: 961px) {
 
+  .page {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .aside {
+    width: 320px;
+    margin-right: 40px;
+  }
+
   .aside__group {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -121,6 +136,10 @@ h1 {
 
   .aside {
     margin-top: 3rem;
+  }
+
+  .aside__menu {
+    display: none;
   }
 
   .post:not(:last-of-type) {

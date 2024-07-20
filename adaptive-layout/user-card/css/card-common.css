@@ -79,6 +79,9 @@ body {
     width: 100%;
     height: 100%;
 
+    background-color: #481bae;
+    opacity: .7;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -99,10 +102,18 @@ body {
 @media (min-width: 768px) and (max-width: 1300px) {
 
   .profile {
+    background-color: #481bae;
+
     padding: 30px;
   }
 
   .profile__preview {
+    width: 140px;
+    height: 140px;
+
+    border: 5px solid #fff;
+    border-radius: 50%;
+
     margin: 0 auto 20px;
     overflow: hidden;
   }

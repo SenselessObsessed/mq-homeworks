@@ -3,5 +3,35 @@
 }
 
 .post__name {
+  justify-content: center;
   font-size: 1.5em;
+}
+
+.post__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 481px) {
+  
+  .section__header,
+  .section__title {
+    font-size: 24px;
+  }
+
+  .post {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section__header,
+  .section__title {
+    font-size: 20px;
+  }
+
+  .post {
+    font-size: 12px;
+  }
 }
